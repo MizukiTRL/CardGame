@@ -1,0 +1,13 @@
+{
+    "files.associations": {
+        "definitions.h": "c",
+        "typeinfo": "c",
+        "effect.h": "c",
+        "player.h": "c",
+        "card.h": "c",
+        "stdio.h": "c",
+        "type_traits": "c",
+        "string.h": "c"
+    },
+    "cmake.sourceDirectory": "C:/Users/anton/OneDrive/Escritorio/programacion/Proyecto cartas/src/libraries/cJSON"
+}
