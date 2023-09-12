@@ -44,9 +44,6 @@ int battle(struct Player *p, struct Player *e, struct Deck deck, struct Card *ca
             energy = 10;
         }
 
-        
-        
-
         turn += 1;
         printf("Turn: %d\n", turn);
 
