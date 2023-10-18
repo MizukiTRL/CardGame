@@ -3,16 +3,16 @@
 
 int main(int n) {
     
-	int opcionMenu;
+	int menuChoice;
 
     do {
         printf("\n------------ BIENVENIDOS AL JUEGO ------------\n");
         printf("\n1. Nuevo juego\n");
         printf("2. Continuar\n");
         printf("3. Salir\n");
-        scanf("%d", &opcionMenu);
+        scanf("%d", &menuChoice);
 
-        switch (opcionMenu) {
+        switch (menuChoice) {
             case 1:
                 printf("1. Nuevo juego CHECK\n");
                 menuInicial(n);
@@ -28,14 +28,14 @@ int main(int n) {
                 printf("\nOpcion invalida, intenta de nuevo\n");
                 break;
         }
-    } while (opcionMenu != 3);
+    } while (menuChoice != 3);
 
     return 0;
 }
 
 int menuInicial(int n ) {
 
-	int opcionMenu = 0; 
+	int menuChoice = 0; 
 
     do {
 
@@ -47,12 +47,12 @@ int menuInicial(int n ) {
 	printf("2. Deck\n");
 	printf("3. Bestiario\n");
 	printf("4 . Salir\n");
-	scanf("\n%d", &opcionMenu);
+	scanf("\n%d", &menuChoice);
 	printf("\n");
 	printf("\n");
 
 
-	switch (opcionMenu) {
+	switch (menuChoice) {
         case 1:
             printf("1. explorar");
             break;
@@ -80,11 +80,11 @@ int menuInicial(int n ) {
             printf("1. Si\n");
             printf("2. No\n");
 
-            int confirmacion = 0;
+            int confirmation = 0;
             printf("\nSelecciona una opcion: ");
-            scanf("%d", &confirmacion);
+            scanf("%d", &confirmation);
 
-            switch(confirmacion) {
+            switch(confirmation) {
                 case 1:
                     printf("Continuando en el menu principal...\n");
                     main(n);
@@ -102,7 +102,7 @@ int menuInicial(int n ) {
             break;
         }
     
-	}	while (opcionMenu =!23);
+	}	while (menuChoice =!23);
 	
 	
     return 0;
